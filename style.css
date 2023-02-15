@@ -1,0 +1,133 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(19, 235, 213);
+  box-shadow: 15px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(44, 185, 240);
+  color: rgb(224, 237, 230);
+  border: 2px solid rgb(21, 8, 205);
+  border-radius: 50px;
+}
+
+.cont_inpt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.name_inp {
+  text-align: center;
+  border-radius: 10px;
+}
+.email_inp {
+  text-align: center;
+  border-radius: 10px;
+}
+.imageUrl_inp {
+  text-align: center;
+  border-radius: 10px;
+}
+.phone_inp {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 10px;
+  color: rgb(226, 249, 249);
+  background-color: rgb(83, 178, 219);
+  border: 0;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.btn:hover {
+  background-color: rgb(35, 30, 99);
+  transition: 0.3s;
+}
+
+.main-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(18, 165, 191);
+  display: none;
+}
+
+.inner-modal {
+  width: 500px;
+  height: 200px;
+  background-color: #51dffe;
+  margin: auto;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.close {
+  text-align: end;
+  margin-right: 10px;
+}
+
+.inp-Name {
+  color: black;
+  text-align: center;
+  border-radius: 15px;
+}
+.inp-email {
+  color: black;
+  text-align: center;
+  border-radius: 15px;
+}
+.inp-img {
+  color: black;
+  text-align: center;
+  border-radius: 15px;
+}
+.inp-phone {
+  color: black;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.btn-closer {
+  cursor: pointer;
+  background-color: rgb(83, 178, 219);
+  color: black;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.btn-closer:hover {
+  background-color: rgb(35, 30, 99);
+  transition: 0.3s;
+}
+
+.btn-save {
+  cursor: pointer;
+  background-color: rgb(51, 165, 180);
+  color: black;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.btn-save:hover {
+  background-color: rgb(35, 30, 99);
+  transition: 0.3s;
+}
